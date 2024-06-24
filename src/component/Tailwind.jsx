@@ -51,6 +51,24 @@ function Tailwind() {
           respectively.
         </p>
       </div>
+      <div className="mt-5">
+        <div className="text-green-300	max-w-sm mx-auto bg-white rounded-xl  overflow-hidden md:max-w-2xl">
+          <div className="md:flex">
+            <div className="">
+              <img
+                className="h-full w-36 md:h-full md:min-w-96"
+                src="https://images.pexels.com/photos/8681433/pexels-photo-8681433.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt=""
+              />
+            </div>
+            <div className="p-9">
+                <div className="uppercase tracking-wider text-sm font-extrabold">An awsome card</div>
+                    <a  className="block mt-3 text-lg font-medium text-black hover:text-blue-900"href="#"> Tailwind css is amazing when you understand <span className="bg-yellow-400 p-[2px] px-14">Hello</span> hight and width</a>
+                <p className="mt-2 text-slate-200"></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,11 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Tailwind from "./component/Tailwind"
+import Tailwind from './component/Tailwind';
+import Pwd from './component/Pwd';
+
 function App() {
   return (
-    <div className="bg-red">
-      <Tailwind/>
-    </div>
+    <Router>
+      <div className="bg-red">
+        <Routes>
+          <Route path="/pwd" element={<Pwd />} />
+          <Route path="/tailwind" element={<Tailwind />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
