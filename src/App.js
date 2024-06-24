@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Tailwind from "./component/Tailwind"
 function App() {
   return (
     <div className="bg-red">
-     Hello World
+      <Tailwind/>
     </div>
   );
 }
